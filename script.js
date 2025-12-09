@@ -19,9 +19,9 @@ function logout() {
 /* PAGE SWITCH */
 function showPage(page) {
     document.querySelectorAll(".section").forEach(sec =>
-        sec.classList.add("hidden")
+        sec.classList.add("none")
     );
-    document.getElementById(page).classList.remove("hidden");
+    document.getElementById(page).classList.remove("hiddenl");
 }
 
 /* SOUND CONTROLS */
